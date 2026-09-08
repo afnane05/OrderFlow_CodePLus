@@ -1,0 +1,11 @@
+/home/afnane/AfnaneTheRepo/myprojects/CodePLus/OrderFlow/src/OrderFlow.Domain/bin/Debug/net8.0/OrderFlow.Domain.deps.json
+/home/afnane/AfnaneTheRepo/myprojects/CodePLus/OrderFlow/src/OrderFlow.Domain/bin/Debug/net8.0/OrderFlow.Domain.dll
+/home/afnane/AfnaneTheRepo/myprojects/CodePLus/OrderFlow/src/OrderFlow.Domain/bin/Debug/net8.0/OrderFlow.Domain.pdb
+/home/afnane/AfnaneTheRepo/myprojects/CodePLus/OrderFlow/src/OrderFlow.Domain/obj/Debug/net8.0/OrderFlow.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/afnane/AfnaneTheRepo/myprojects/CodePLus/OrderFlow/src/OrderFlow.Domain/obj/Debug/net8.0/OrderFlow.Domain.AssemblyInfoInputs.cache
+/home/afnane/AfnaneTheRepo/myprojects/CodePLus/OrderFlow/src/OrderFlow.Domain/obj/Debug/net8.0/OrderFlow.Domain.AssemblyInfo.cs
+/home/afnane/AfnaneTheRepo/myprojects/CodePLus/OrderFlow/src/OrderFlow.Domain/obj/Debug/net8.0/OrderFlow.Domain.csproj.CoreCompileInputs.cache
+/home/afnane/AfnaneTheRepo/myprojects/CodePLus/OrderFlow/src/OrderFlow.Domain/obj/Debug/net8.0/OrderFlow.Domain.dll
+/home/afnane/AfnaneTheRepo/myprojects/CodePLus/OrderFlow/src/OrderFlow.Domain/obj/Debug/net8.0/refint/OrderFlow.Domain.dll
+/home/afnane/AfnaneTheRepo/myprojects/CodePLus/OrderFlow/src/OrderFlow.Domain/obj/Debug/net8.0/OrderFlow.Domain.pdb
+/home/afnane/AfnaneTheRepo/myprojects/CodePLus/OrderFlow/src/OrderFlow.Domain/obj/Debug/net8.0/ref/OrderFlow.Domain.dll
