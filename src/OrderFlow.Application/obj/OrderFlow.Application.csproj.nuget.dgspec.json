@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/afnane/AfnaneTheRepo/myprojects/CodePLus/OrderFlow/src/OrderFlow.Application/OrderFlow.Application.csproj": {}
+    "/home/afnane/AfnaneTheRepo/myprojects/CodePLus/OrderFlow_CodePLus/src/OrderFlow.Application/OrderFlow.Application.csproj": {}
   },
   "projects": {
-    "/home/afnane/AfnaneTheRepo/myprojects/CodePLus/OrderFlow/src/OrderFlow.Application/OrderFlow.Application.csproj": {
+    "/home/afnane/AfnaneTheRepo/myprojects/CodePLus/OrderFlow_CodePLus/src/OrderFlow.Application/OrderFlow.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/afnane/AfnaneTheRepo/myprojects/CodePLus/OrderFlow/src/OrderFlow.Application/OrderFlow.Application.csproj",
+        "projectUniqueName": "/home/afnane/AfnaneTheRepo/myprojects/CodePLus/OrderFlow_CodePLus/src/OrderFlow.Application/OrderFlow.Application.csproj",
         "projectName": "OrderFlow.Application",
-        "projectPath": "/home/afnane/AfnaneTheRepo/myprojects/CodePLus/OrderFlow/src/OrderFlow.Application/OrderFlow.Application.csproj",
+        "projectPath": "/home/afnane/AfnaneTheRepo/myprojects/CodePLus/OrderFlow_CodePLus/src/OrderFlow.Application/OrderFlow.Application.csproj",
         "packagesPath": "/home/afnane/.nuget/packages/",
-        "outputPath": "/home/afnane/AfnaneTheRepo/myprojects/CodePLus/OrderFlow/src/OrderFlow.Application/obj/",
+        "outputPath": "/home/afnane/AfnaneTheRepo/myprojects/CodePLus/OrderFlow_CodePLus/src/OrderFlow.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/afnane/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/afnane/AfnaneTheRepo/myprojects/CodePLus/OrderFlow/src/OrderFlow.Domain/OrderFlow.Domain.csproj": {
-                "projectPath": "/home/afnane/AfnaneTheRepo/myprojects/CodePLus/OrderFlow/src/OrderFlow.Domain/OrderFlow.Domain.csproj"
+              "/home/afnane/AfnaneTheRepo/myprojects/CodePLus/OrderFlow_CodePLus/src/OrderFlow.Domain/OrderFlow.Domain.csproj": {
+                "projectPath": "/home/afnane/AfnaneTheRepo/myprojects/CodePLus/OrderFlow_CodePLus/src/OrderFlow.Domain/OrderFlow.Domain.csproj"
               }
             }
           }
@@ -76,18 +76,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.424/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.425/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/afnane/AfnaneTheRepo/myprojects/CodePLus/OrderFlow/src/OrderFlow.Domain/OrderFlow.Domain.csproj": {
+    "/home/afnane/AfnaneTheRepo/myprojects/CodePLus/OrderFlow_CodePLus/src/OrderFlow.Domain/OrderFlow.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/afnane/AfnaneTheRepo/myprojects/CodePLus/OrderFlow/src/OrderFlow.Domain/OrderFlow.Domain.csproj",
+        "projectUniqueName": "/home/afnane/AfnaneTheRepo/myprojects/CodePLus/OrderFlow_CodePLus/src/OrderFlow.Domain/OrderFlow.Domain.csproj",
         "projectName": "OrderFlow.Domain",
-        "projectPath": "/home/afnane/AfnaneTheRepo/myprojects/CodePLus/OrderFlow/src/OrderFlow.Domain/OrderFlow.Domain.csproj",
+        "projectPath": "/home/afnane/AfnaneTheRepo/myprojects/CodePLus/OrderFlow_CodePLus/src/OrderFlow.Domain/OrderFlow.Domain.csproj",
         "packagesPath": "/home/afnane/.nuget/packages/",
-        "outputPath": "/home/afnane/AfnaneTheRepo/myprojects/CodePLus/OrderFlow/src/OrderFlow.Domain/obj/",
+        "outputPath": "/home/afnane/AfnaneTheRepo/myprojects/CodePLus/OrderFlow_CodePLus/src/OrderFlow.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/afnane/.nuget/NuGet/NuGet.Config"
@@ -134,7 +134,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.424/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.425/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

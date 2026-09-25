@@ -48,10 +48,7 @@ namespace OrderFlow.Infrastructure.Migrations
             modelBuilder.Entity("OrderFlow.Domain.Entities.OrderDashboardRow", b =>
                 {
                     b.Property<int>("OrderId")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("OrderId"));
 
                     b.Property<string>("CustomerName")
                         .IsRequired()
@@ -64,6 +61,7 @@ namespace OrderFlow.Infrastructure.Migrations
                         .HasColumnType("int");
 
                     b.Property<decimal>("TotalPrice")
+                        .HasPrecision(18, 2)
                         .HasColumnType("decimal(18,2)");
 
                     b.HasKey("OrderId");

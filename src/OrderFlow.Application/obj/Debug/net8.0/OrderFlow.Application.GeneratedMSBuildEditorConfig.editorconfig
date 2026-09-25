@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = OrderFlow.Application
-build_property.ProjectDir = /home/afnane/AfnaneTheRepo/myprojects/CodePLus/OrderFlow/src/OrderFlow.Application/
+build_property.ProjectDir = /home/afnane/AfnaneTheRepo/myprojects/CodePLus/OrderFlow_CodePLus/src/OrderFlow.Application/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
