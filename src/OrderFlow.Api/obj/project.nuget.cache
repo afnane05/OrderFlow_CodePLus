@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "E1ANRX8HSuM=",
+  "dgSpecHash": "iUi8tQF0I9Y=",
   "success": true,
   "projectFilePath": "/home/afnane/AfnaneTheRepo/myprojects/CodePLus/OrderFlow_CodePLus/src/OrderFlow.Api/OrderFlow.Api.csproj",
   "expectedPackageFiles": [
@@ -71,6 +71,15 @@
     "/home/afnane/.nuget/packages/microsoft.openapi/1.6.14/microsoft.openapi.1.6.14.nupkg.sha512",
     "/home/afnane/.nuget/packages/microsoft.sqlserver.server/1.0.0/microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "/home/afnane/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
+    "/home/afnane/.nuget/packages/opentelemetry/1.19.1/opentelemetry.1.19.1.nupkg.sha512",
+    "/home/afnane/.nuget/packages/opentelemetry.api/1.19.1/opentelemetry.api.1.19.1.nupkg.sha512",
+    "/home/afnane/.nuget/packages/opentelemetry.api.providerbuilderextensions/1.19.1/opentelemetry.api.providerbuilderextensions.1.19.1.nupkg.sha512",
+    "/home/afnane/.nuget/packages/opentelemetry.exporter.opentelemetryprotocol/1.19.1/opentelemetry.exporter.opentelemetryprotocol.1.19.1.nupkg.sha512",
+    "/home/afnane/.nuget/packages/opentelemetry.exporter.prometheus.aspnetcore/1.19.1-beta.1/opentelemetry.exporter.prometheus.aspnetcore.1.19.1-beta.1.nupkg.sha512",
+    "/home/afnane/.nuget/packages/opentelemetry.extensions.hosting/1.19.1/opentelemetry.extensions.hosting.1.19.1.nupkg.sha512",
+    "/home/afnane/.nuget/packages/opentelemetry.instrumentation.aspnetcore/1.19.0/opentelemetry.instrumentation.aspnetcore.1.19.0.nupkg.sha512",
+    "/home/afnane/.nuget/packages/opentelemetry.instrumentation.http/1.19.0/opentelemetry.instrumentation.http.1.19.0.nupkg.sha512",
+    "/home/afnane/.nuget/packages/opentelemetry.instrumentation.sqlclient/1.19.0/opentelemetry.instrumentation.sqlclient.1.19.0.nupkg.sha512",
     "/home/afnane/.nuget/packages/pipelines.sockets.unofficial/2.2.8/pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
     "/home/afnane/.nuget/packages/stackexchange.redis/2.7.27/stackexchange.redis.2.7.27.nupkg.sha512",
     "/home/afnane/.nuget/packages/swashbuckle.aspnetcore/6.6.2/swashbuckle.aspnetcore.6.6.2.nupkg.sha512",

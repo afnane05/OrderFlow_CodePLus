@@ -6,6 +6,8 @@ using OrderFlow.Application.Features.Orders.CreateOrder;
 using OrderFlow.Infrastructure.Persistence;
 using OrderFlow.Infrastructure.Caching;
 using OrderFlow.Infrastructure.BackgroundJobs;
+using OpenTelemetry.Metrics;
+using OpenTelemetry.Trace;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -45,6 +47,24 @@ builder.Services.AddHealthChecks()
     .AddSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"), name: "SQL Server")
     .AddRedis(builder.Configuration.GetConnectionString("Redis")!, name: "Redis");
 
+//Metrics
+builder.Services.AddOpenTelemetry()
+    .WithMetrics(m=> m 
+        .AddAspNetCoreInstrumentation()
+        .AddMeter("OrderFlow")
+        .AddPrometheusExporter());
+
+//Tracing
+builder.Services.AddOpenTelemetry()
+    .WithTracing(t => t
+        .AddAspNetCoreInstrumentation()
+        .AddSqlClientInstrumentation()
+        .AddSource("OrderFlow")
+        .AddOtlpExporter(options =>
+        {
+            options.Endpoint = new Uri("http://localhost:4317");
+        }));
+
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
@@ -54,6 +74,9 @@ if (app.Environment.IsDevelopment())
 }
 //app mapping to health check 
 app.MapHealthChecks("/health");
+
+//Mapping Metrics
+app.MapPrometheusScrapingEndpoint();
 
 app.UseHttpsRedirection();
 app.UseAuthorization();
